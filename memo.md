@@ -34,5 +34,32 @@ mydict = {"apple":1, "orange":2, "banana":3}
 val = mydict["apple"]
 print(val)
 ```
+##インデックスを取得
+```
+list_1 = ["Apple", "Banana", "Orange", "Bana", "Banana"]
 
+print(list_1.index("Banana"))
+```
+##sort
+```
+l = [3, 1, 4, 5, 2]
+
+l.sort()
+print(l)
+# [1, 2, 3, 4, 5]
+
+l.sort(reverse=True)
+print(l)
+# [5, 4, 3, 2, 1]
+```
+##sorted
+```
+l = [3, 1, 4, 5, 2]
+
+l_sorted = sorted(l)
+print(l_sorted)
+# [1, 2, 3, 4, 5]
+
+print(l)
+# [3, 1, 4, 5, 2]
 ```
